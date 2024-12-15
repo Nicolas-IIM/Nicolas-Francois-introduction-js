@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>N* Records: Label Announcement</title>
+    <link href="styletest2.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="maintest2.js" defer></script>
+</head>
+<body>
+
+<div class="header-site">
+    <header class="header-balise">
+        <div class="header-menu">
+            <div class="logo-head">
+                <h1>N* Records</h1>
+            </div>
+            <div class="nav-menu">
+                <nav>
+                    <ul>
+                        <li><a href="homepageV2.html">Accueil</a></li>
+                        <li><a href="page-info.html">Artistes</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="bouton-section">
+                <div class="login-buton">
+                    <button id="bonjour-pseudo">Bonjour </button>
+                </div>
+                <div class="dark-mode-bouton">
+                    <button>mode santa indisponible sur une page de connexion</button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+</div>
+
+<div class="titre-banner">
+    <h1 class="titre-info-banner">N* Records</h1>
+    <p>Label Announcement</p>
+</div>
+
+
+
+
+<div class="forms">
+    <div class="forms-section">
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="pseudo">Pseudo</label>
+                <input type="text" name="pseudo" id="pseudo">
+                <p class="warn" id="pseudo-avert"> Le pseudo doit comporter 6 caractères au moins</p>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <p class="warn" id="email-avert">Entrez votre email pour recevoir nos actualité !</p>
+            </div>
+
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password">
+                <p class="warn" id="motdepasstest">Le mot de passe doit comporter 8 caractères au moins</p>
+            </div>
+
+            <div>
+                <label for="password2">Entrer à nouveau le mot de passe</label>
+                <input type="password" name="password2" id="password2">
+                <p class="warn" id="motdepasstest2">Merci de retaper votre mot de passe</p>
+            </div>
+
+            <div class="newsletter">
+                <input type="checkbox" name="test" id="checkbox" value="test">
+                <label for="checkbox">Je souhaite recevoir les actualités de N* Records</label>
+            </div>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+
+</div>
+
+
+</body>
+</html>

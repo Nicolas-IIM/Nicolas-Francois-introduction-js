@@ -1,0 +1,226 @@
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+
+
+}
+li {
+    display: inline-flex;
+    margin-right: 10px;
+
+}
+
+.logo-head{
+    font-family: Kablammo;
+    color: #3a3a3a;
+
+    letter-spacing: 2px;
+}
+
+@media (max-width: 629px) {
+    .login-button {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 370px) {
+    .logo-head {
+    display: none;
+    }
+}
+
+
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* debut de la banner*/
+
+.banner-head {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+
+.info-1-titre-dessu{
+    display: flex;
+    justify-content: center
+}
+.img-banner {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.text-content {
+    margin-left: 20px;
+    width: 600px;
+}
+.banner-head {
+    display: block;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-banner {
+    width: fit-content;
+    height: 300px;
+    border-radius: 10px;
+}
+
+@media (max-width: 706px) {
+    .img-banner {
+        display: none;
+    }
+}
+
+
+/* debut des cartes*/
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5 {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+/*footer*/
+.pied-de-page {
+    background-color: #006b57;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+
+
+
+.footer-nav {
+    gap: 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* section info banner*/
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.info-1-titre-dessu {
+    font-size: 25px;
+    font-weight: bold;
+    color: #006b57;
+    margin: 30px;
+}
+
+/*mise en forme des boutton de tt la page*/
+button {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-top:10px ;
+    border: none;
+    color: #effff7;
+    border-radius: 500px;
+    font-size: 15px;
+    background-color: #25c99d;
+}
+
+
+h1 {
+    font-family: 'Kablammo', sans-serif;
+}
+
+.mention-legal{
+    padding: 10px;
+}
+.button-santa-mod {
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right:15px ;
+    padding-top:10px ;
+    border: none;
+    color: #FFF4F4FF;
+    border-radius: 500px;
+    font-size: 15px;
+    background-color: #c92525;
+}
+
+.test{
+    background-color: #210006;
+
+}
+
+.p-santa-mod{
+    color: #FFF4F4FF;
+}
+
+.h-santa-mod{
+    color: #ffd1d1;
+}
+
+.pied-de-page-santa-mod {
+    background-color: #6b0014;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
