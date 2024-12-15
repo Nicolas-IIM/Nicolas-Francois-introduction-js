@@ -1,5 +1,9 @@
 # RENDU-Nicolas-Francois-introduction-js
-
+> [!NOTE]
+> Je n'ai pas réussi à finaliser les tabs, mais mes tentatives sont visibles dans le code.
+Mais j'ai réalisé le bonus sur le formulaire.
+>
+> link de la vidéo https://devinci-my.sharepoint.com/personal/nicolas_francois_edu_devinci_fr/_layouts/15/guestaccess.aspx?share=EWFL4PsKgiNMk3eji_Jn7-YBBj5PzrRssc2Bbd1Wh3L0fg&e=evQqCs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 ## pour form et combat
 
 https://developer.mozilla.org/en-US/ 
