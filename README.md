@@ -38,3 +38,6 @@ https://stackoverflow.com/questions/197748/how-do-i-change-the-background-color-
 
 et + le cours
 
+## pour les tabs
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
