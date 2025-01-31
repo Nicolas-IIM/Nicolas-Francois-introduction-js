@@ -1,0 +1,27 @@
+.tabs-nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fde5ff;
+    border-bottom: 2px solid #fae2ff;
+}
+
+.tabs-nav li {
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.tabs-nav .tab-active {
+    background-color: #ea6cff;
+    border-radius: 5px;
+}
+
+.content {
+    display: none;
+    padding: 10px;
+}
+
+.content.active {
+    display: block;
+}
