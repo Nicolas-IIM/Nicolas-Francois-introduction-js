@@ -41,3 +41,6 @@ et + le cours
 ## pour les tabs
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+https://www.youtube.com/watch?v=x_tLsytzaCA + IA
+
